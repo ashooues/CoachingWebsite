@@ -11,6 +11,7 @@ import { NewAppJobHistoryMySuffixModule } from './job-history-my-suffix/job-hist
 import { NewAppBlogModule } from './blog/blog.module';
 import { NewAppEntryModule } from './entry/entry.module';
 import { NewAppTagModule } from './tag/tag.module';
+/*import { NewAppGalleryModule} from './gallery/gallery.module';*/
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NewAppTagModule } from './tag/tag.module';
         NewAppBlogModule,
         NewAppEntryModule,
         NewAppTagModule,
+/*        NewAppGalleryModule,*/
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

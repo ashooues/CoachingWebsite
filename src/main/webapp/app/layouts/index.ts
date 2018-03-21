@@ -7,3 +7,10 @@ export * from './navbar/navbar.route';
 export * from './profiles/page-ribbon.component';
 export * from './profiles/profile.service';
 export * from './profiles/profile-info.model';
+export * from './phase1/phase1.component';
+export * from './phase2/phase2.component';
+export * from './phase3/phase3.component';
+export * from './phase4/phase4.component';
+export * from './phase5/phase5.component';
+export * from './navig/navig.component';
+/*export * from './navig/navig.route';*/

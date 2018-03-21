@@ -16,6 +16,7 @@ import { NewAppHomeModule } from './home/home.module';
 import { NewAppAdminModule } from './admin/admin.module';
 import { NewAppAccountModule } from './account/account.module';
 import { NewAppEntityModule } from './entities/entity.module';
+import { NewAppPageModule } from './pages/page.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
@@ -24,7 +25,13 @@ import {
     FooterComponent,
     ProfileService,
     PageRibbonComponent,
-    ErrorComponent
+    ErrorComponent,
+    Phase1Component,
+    Phase2Component,
+    Phase3Component,
+    Phase4Component,
+    Phase5Component,
+    NavigComponent,
 } from './layouts';
 
 @NgModule({
@@ -37,6 +44,7 @@ import {
         NewAppAdminModule,
         NewAppAccountModule,
         NewAppEntityModule,
+        NewAppPageModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
@@ -44,7 +52,13 @@ import {
         NavbarComponent,
         ErrorComponent,
         PageRibbonComponent,
-        FooterComponent
+        FooterComponent,
+        Phase1Component,
+        Phase2Component,
+        Phase3Component,
+        Phase4Component,
+        Phase5Component,
+        NavigComponent,
     ],
     providers: [
         ProfileService,
